@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messenger</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Poller+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <link href="./style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <aside id="side-nav">
+            <div class="logo">
+                <img src="./images/Logo.png" alt="Logo">
+            </div>
+            <div class="home">
+                <img src="./decor/home.svg" alt="Home Icon">
+            </div>
+            <div class="messages">
+                <img src="./decor/messages.svg" alt="Messages Icon">
+            </div>
+            <div class="pie-chart">
+                <img src="./decor/pie-chart.svg" alt="Pie-chart Icon">
+            </div>
+            <div class="search-icon">
+                <img src="./decor/search.svg" alt="Search Icon">
+            </div>
+            <div class="calendar">
+                <img src="./decor/calendar-day.svg" alt="Calendar Icon">
+            </div>
+            <div class="settings">
+                <img src="./decor/gear.svg" alt="Settings Icon">
+            </div>
+        </aside>
+        <!-- Main chat area -->
+        <main>
+            <div id="panel-one">
+                <div class="header-container">
+                    <div class="header-wrap">
+                        <h3>Messages</h3>
+                        <img src="./decor/angle-down.svg" alt="Expand Button">
+                        <span class="header-span">12</span>
+                    </div>
+                    <div>
+                        <img src="./decor/Plus (2).svg" alt="Add Button">
+                    </div>
+                </div><hr>
+                <div class="subpanel-one">
+                    <div class="search-bar">
+                        <button><img src="./decor/search (1).svg" alt="Search Icon"> Search messages</button>
+                    </div>
+                    <!-- Box one -->
+                    <div class="message">
+                        <div class="inner-wrap1">
+                            <div class="flex-one">
+                                <img src="./images/Elmer.png" alt="Profile Picture">
+                            </div>
+                            <div class="details">
+                                <h4>Elmer Laverty</h4>
+                                <p>Haha oh man 🔥</p>
+                                <div class="group-span1">
+                                    <span class="span1a">Question</span>
+                                    <span class="span1b">Help wanted</span>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="flex-one-span">12m</div>    
+                    </div>
+                    <!-- End of box one -->
+                    <!-- Box two -->
+                    <div class="messages-two message">
+                        <div class="inner-wrap1">
+                            <div class="flex-two">
+                                <img src="./images/Florencio.png" alt="Profile Picture">
+                            </div>
+                            <div class="details">
+                                <h4>Florencio Dorrance</h4>
+                                <p>woohoooo</p>
+                                <div class="single-span1">
+                                    <span class="single-span">Some content</span>
+                                </div> 
+                            </div>
+                        </div>
+                        <div class="flex-two-span">24m</div>
+                    </div>
+                    <!-- End of box two -->
+                    <!-- Box three -->
+                    <div class="message"> 
+                        <div class="inner-wrap1">
+                            <div class="flex-three">
+                                <img src="./images/Lavern.png" alt="Profile Picture">
+                            </div>
+                            <div class="details">
+                                <h4>Lavern Laboy</h4>
+                                <p>Haha that's terrifying 😂</p>
+                                <div class="group-span2">
+                                    <span class="span2a">Bug</span>
+                                    <span class="span2b">Hacktoberfest</span>
+                                </div>   
+                            </div>
+                        </div>
+                        <div class="flex-three-span">1h</div>
+                    </div>
+                    <!-- End of box three -->
+                    <!-- Box four -->
+                    <div class="message">
+                        <div class="inner-wrap1">
+                            <div class="flex-four">
+                                <img src="./images/Titus.png" alt="Profile Picture">
+                            </div>
+                            <div class="details">
+                                <h4>Titus Kitamura</h4>
+                                <p>omg, this is amazing</p>
+                                <div class="group-span3">
+                                    <span class="span3a">Question</span>
+                                    <span class="span3b">Some content</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex-four-span">5h</div>
+                    </div>
+                    <!-- End of box four -->
+                    <!-- Box five -->
+                    <div class="message">
+                        <div class="inner-wrap1">
+                            <div class="flex-five">
+                                <img src="./images/Geoffrey.png" alt="Profile Picture">
+                            </div>
+                            <div class="details">
+                                <h4>Geoffrey Mott</h4>
+                                <p>aww 😍</p>
+                                <div class="single-span2">
+                                    <span class="single-span-2">Request</span>
+                                </div> 
+                            </div>
+                        </div>
+                        <div class="flex-five-span">2d</div>
+                    </div>
+                    <!-- End of box five -->
+                    <!-- Box six -->
+                    <div class="message">
+                        <div class="inner-wrap1">
+                            <div class="flex-six">
+                                <img src="./images/Alfonzo.png" alt="Profile Picture">
+                            </div>
+                            <div class="details">
+                                <h4>Alfonzo Schuessler</h4>
+                                <p>perfect!</p>
+                                <div class="single-span3">
+                                    <span class="single-span-3">Follow up</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex-six-span">1m</div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- End of main chat -->
+        <!-- Message display -->
+        <section class="section-a">
+            <div id="panel-two">
+                <div class="mdisplay-flex-a">
+                    <div>
+                        <img src="./images/Florencio.png" alt="Profile Picture">
+                    </div>
+                    <div>
+                        <h3>Florencio Dorrance</h3>
+                        <small><img src="./decor/Ellipse 1.svg" alt="green indicator">Online</small>
+                    </div>
+                    <div>
+                        <button><img src="./decor/phone.svg" alt="Phone Icon">Call</button>
+                    </div>
+                </div><hr>
+                <div>
+                    <div class="mdisplay-flex-b">
+                        <div>
+                            <img src="./images/Florencio.png" alt="Profile Picture"> 
+                        </div>
+                        <div class="flex-b">
+                            <div>
+                                <p>omg, this is amazing</p>
+                            </div>
+                            <div>
+                                <p>perfect! ✅</p>
+                            </div>
+                            <div>
+                                <p>Wow, this is really epic</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="mdisplay-flex-b">
+                        <div class="flex-c">
+                            <div>
+                                <p>How are you?</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="./images/Florencio.png" alt="Profile Picture"> 
+                        </div>
+                    </div>
+                    <div class="mdisplay-flex-b">
+                        <div>
+                            <img src="./images/Florencio.png" alt="Profile Picture"> 
+                        </div>
+                        <div class="flex-d">
+                            <div>
+                                <p>just ideas for next time</p>
+                            </div>
+                            <div>
+                                <p>I'll be there in 2 mins ⏰</p>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="mdisplay-flex-b">
+                        <div class="flex-e">
+                            <div>
+                                <p>woohoooo</p>
+                            </div>
+                            <div>
+                                <p>Haha oh man</p>
+                            </div>
+                            <div>
+                                <p>Haha that's terrifying 😂</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="./images/Florencio.png" alt="Profile Picture"> 
+                        </div>
+                    </div>
+                    <div class="mdisplay-flex-b">
+                        <div>
+                            <img src="./images/Florencio.png" alt="Profile Picture"> 
+                        </div>
+                        <div class="flex-f">
+                            <div>
+                                <p>aww</p>
+                            </div>
+                            <div>
+                                <p>omg, this is amazing</p>
+                            </div>
+                            <div>
+                                <p>woohoooo 🔥</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="message-input-wrap">
+                        <div class="clip">
+                            <img src="./decor/paperclip.svg" alt="Attachment Icon">
+                        </div>
+                        <div class="send">
+                            <input type="text" placeholder="Type a message">
+                            <img src="./decor/paper-plane.svg" alt="Send Icon">
+                        </div>    
+                    </div>
+                </div>
+            </div>    
+        </section>
+        <!-- Directory and files -->
+        <section class="section-b">
+            <div class="team-wrap">
+                <div class="directory-container">
+                    <h3>Directory</h3>
+                    <div>
+                        <img src="./images/Icon Button.png" alt="More Button">    
+                    </div>
+                </div><hr>
+                <div class="team-container">
+                    <div class="team-title">
+                        <h3>Team Members</h3>
+                        <span class="team-span">6</span>
+                    </div>
+                    <div class="directory">
+                        <div class="directory-a">
+                            <img src="./images/Florencio-Di.png" alt="Profile Picture">
+                            <div>
+                                <h4>Florencio Dorrance</h4>
+                                <p>Market Development Manager</p>
+                            </div>
+                        </div>
+                        <div class="directory-b">
+                            <img src="./images/Benny.png" alt="Profile Picture">
+                            <div>
+                                <h4>Benny Spanbauer</h4>
+                                <p>Area Sales Manager</p>
+                            </div>
+                        </div>
+                        <div class="directory-c">
+                            <img src="./images/Jamel.png" alt="Profile Picture">
+                            <div>
+                                <h4>Jamel Eusebio</h4>
+                                <p>Administrator</p>
+                            </div>
+                        </div>
+                        <div class="directory-d">
+                            <img src="./images/Lavern-Di.png" alt="Profile Picture">
+                            <div>
+                                <h4>Lavern Laboy</h4>
+                                <p>Account Executive</p>
+                            </div>
+                        </div>
+                        <div class="directory-e">
+                            <img src="./images/Alfonzo-Di.png" alt="Profile Picture">
+                            <div>
+                                <h4>Alfonzo Schuessler</h4>
+                                <p>Proposal Writer</p>
+                            </div>
+                        </div>
+                        <div class="directory-f">
+                            <img src="./images/Daryl.png" alt="Profile Picture">
+                            <div>
+                                <h4>Daryl Nehls</h4>
+                                <p>Nursing Assistant</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div><hr>
+            <!-- Files -->
+            <div class="files-wrap">
+                <div class="files-title">
+                    <h3>Files</h3>
+                    <span>125</span>
+                </div>
+                <div class="file">
+                    <div class="inner-file">
+                        <img src="./decor/Adobe.svg" alt="Adobe Icon">
+                        <div>
+                            <p>i9.pdf</p>
+                            <p>PDF   9mb</p>
+                        </div>
+                    </div>
+                    
+                    <img src="./decor/Download.svg" alt="Download Icon">
+                </div>
+                <div class="file">
+                    <div class="inner-file">
+                        <img src="./decor/Screenshot.svg" alt="Image Icon">
+                        <div>
+                            <p>Screenshot-3817.png</p>
+                            <p>PNG   4mb</p>
+                        </div>
+                    </div>
+                    
+                    <img src="./decor/Download.svg" alt="Download Icon"> 
+                </div>
+                <div class="file">
+                    <div class="inner-file">
+                        <img src="./decor/Docx.svg" alt="Document Icon">
+                        <div>
+                            <p>sharefile.docx</p>
+                            <p>DOC   555kb</p>
+                        </div>
+                    </div>
+                    
+                    <img src="./decor/Download.svg" alt="Download Icon">
+                </div>
+                <div class="file">
+                    <div class="inner-file">
+                        <img src="./decor/Xxl.svg" alt="Sheet Icon">
+                        <div>
+                            <p>Jerry-2020_l-9_Form.xxl</p>
+                            <p>XXL   24mb</p>
+                        </div>
+                    </div>
+                    
+                    <img src="./decor/Download.svg" alt="Download Icon">
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
